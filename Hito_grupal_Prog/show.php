@@ -38,39 +38,15 @@ https://www.tooplate.com/view/2119-gymso-fitness
 <h1>Entradas</h1>
 
 
-
-
-<table border="1.5px" align="center">
-    <thead>
-    <th>ID</th>
-    <th>Titulo</th>
-    <th>Contenido</th>
-    <th>Foto</th>   
-    <th>Fecha</th>
-</thead>
-
 <tbody>
     <?php
 
     foreach($arrDatos as $muestra){
-        echo '<tr>';
-
-  
-        echo '<td >' . $muestra['id'] . '</td>';
-        echo '<td >' . $muestra['titulo'] . '</td>';
-        echo '<td >' . $muestra['contenido'] . '</td>';
-        echo '<td >' . $muestra['imagen'] . '</td>';
-        echo '<td >' . $muestra['fecha'] . '</td>';
-
-       
-        echo ' </tr>';
-
-    }     
+        echo"<p>".$muestra['titulo']."<img src='".$muestra['imagen']."'</p>";
         
-    
-   
+    }     
     ?>
-
+  
 
 </tbody>
 </table>

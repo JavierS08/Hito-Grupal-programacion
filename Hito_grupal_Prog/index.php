@@ -52,6 +52,12 @@ https://www.tooplate.com/view/2119-gymso-fitness
                     <li class="nav-item">
                         <a href="#schedule" class="nav-link smoothScroll">Login</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="eliminar.php" class="nav-link smoothScroll">Eliminar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="modificar.php" class="nav-link smoothScroll">Modificar</a>
+                    </li>
 
                 </ul>
             </div>
@@ -73,7 +79,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                             <label>Contenido texto</label>
                             <input type="text" class="form-control" name="texto" placeholder="Escribe el Contenido">
                             <label>Imagen</label>
-                            <input type="file" class="form-control" name="imagen" placeholder="Escribe un titulo">
+                            <input type="text" class="form-control" name="imagen" placeholder="Escribe un titulo">
                             <label>Fecha de publicacion</label>
                             <input type="date" class="form-control" name="date">
                             <button type="submit" class="form-control" id="submit-button" name="submit">Enviar</button>
