@@ -9,6 +9,8 @@
 <body>
     <h1>Modificar</h1>
     <form action="mod.php" method="post">
+    <label for="titulo">Id</label>
+        <input type="text" name="id" id="" placeholder="Ingresa el id de la noticia a cambiar">
         <label for="titulo">Titulo</label>
         <input type="text" name="titulo" id="" placeholder="Ingresa el titulo">
         <label for="titulo">Contenido</label>
