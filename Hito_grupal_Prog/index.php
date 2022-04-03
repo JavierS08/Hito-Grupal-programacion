@@ -27,30 +27,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
     <!-- MENU BAR -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-
             <a class="navbar-brand" href="index.php">Bienvenido</a>
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-lg-auto">
                     <li class="nav-item">
                         <a href="index.php" class="nav-link smoothScroll">Home</a>
                     </li>
-
                     <li class="nav-item">
                         <a href="show.php" class="nav-link smoothScroll">Mostrar</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#class" class="nav-link smoothScroll">Registro</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#schedule" class="nav-link smoothScroll">Login</a>
                     </li>
                     <li class="nav-item">
                         <a href="eliminar.php" class="nav-link smoothScroll">Eliminar</a>
@@ -61,9 +49,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
                 </ul>
             </div>
-
         </div>
-    </nav>
+</nav>
 
      <!-- CONTACT -->
      <section class="contact section" id="contact">
@@ -79,7 +66,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                             <label>Contenido texto</label>
                             <input type="text" class="form-control" name="texto" placeholder="Escribe el Contenido">
                             <label>Imagen</label>
-                            <input type="text" class="form-control" name="imagen" placeholder="Escribe un titulo">
+                            <input type="text" class="form-control" name="imagen" placeholder="Enlaza una imagen">
                             <label>Fecha de publicacion</label>
                             <input type="date" class="form-control" name="date">
                             <button type="submit" class="form-control" id="submit-button" name="submit">Enviar</button>
